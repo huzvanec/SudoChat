@@ -7,6 +7,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/spigot-api-1.18.2-R0.1-SNAPSHOT-shaded.jar" sourcepath="/home/lukas/eclipse-workspace/SudoChat/bukkit.jdoc"/>
-	<classpathentry kind="lib" path="lib/sqlite-jdbc-3.36.0.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
