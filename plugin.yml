@@ -1,6 +1,6 @@
 main: cz.jeme.programu.sudochat.SudoChat
 name: SudoChat
-version: 1.0.0
+version: 1.0
 author: XD_CZ
 description: You can run commands/say things as other players
 api-version: 1.18
