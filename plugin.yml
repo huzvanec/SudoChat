@@ -9,7 +9,7 @@ prefix: SudoChat
 commands:
     sudo:
       description: runs commands/says things as other players
-      usage: "§aUsage: /please <player name> <text to write>"
+      usage: "§aUsage: /sudo <player name> <text to write>"
       aliases: [pleasesay,plssay]
       permission: sudochat.sudo
       permission-message: "No permission! Ask the admin to grant it."
