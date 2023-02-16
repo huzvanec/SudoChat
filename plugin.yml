@@ -2,13 +2,13 @@ main: cz.jeme.programu.sudochat.SudoChat
 name: SudoChat
 version: 2.0
 author: XD_CZ
-description: Run commands/say things as other players
+description: Run commands and say things as other players
 api-version: 1.16
 website: programu.jeme.cz
 prefix: SudoChat
 commands:
    sudo:
-      description: Run commands/say things as other players
-      usage: 'Usage: /sudo <playername> <message/command>'
+      description: Run commands and say things as other players
+      usage: 'Usage: /sudo <playername> <message or /command>'
       permission: sudochat.sudo
       permission-message: No permission! Ask the admin to grant it.
