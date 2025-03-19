@@ -5,7 +5,7 @@ No config. Works out of the box.
 
 ## Supported Platforms
 
-✅ Paper-based Minecraft servers (1.21.4+)  
+✅ Paper-based Minecraft servers **1.21.4+**  
 ❌ Spigot and Bukkit are NOT supported
 
 ## Permissions
@@ -31,16 +31,31 @@ The command format:
 
 ## Examples
 
-- Sending a message as another player
+### Sending a message as another player
 
 ```
 /sudo Steve Hello! I just joined the server.
 /sudo @a[name=!Steve] Welcome!
 ```
 
-- Executing a command as another player
+### Executing a command as another player
 
 ```
 /sudo Steve /gamemode creative
 /sudo @a[name=!Steve] /help
 ```
+
+## Building
+
+Requirements
+
+- [Git](https://git-scm.com/downloads)
+- [Java 21](https://www.oracle.com/java/technologies/downloads/#java21)
+
+```bash
+git clone https://github.com/huzvanec/SudoChat.git
+cd SudoChat
+./gradlew shadowJar
+```
+
+After building, the output JAR will be located in `./build/libs/`.
