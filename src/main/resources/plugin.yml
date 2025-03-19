@@ -1,6 +1,6 @@
 name: SudoChat
-version: '4.0'
+version: '${version}'
 main: cz.jeme.sudochat.SudoChat
 api-version: '1.21'
-authors: [ XD_CZ ]
-description: The mod that brings it all together
+author: Hužva
+description: A lightweight plugin that lets you send messages and run commands as other players
