@@ -30,6 +30,7 @@ tasks {
     shadowJar {
         relocationPrefix = "${project.group.toString().lowercase()}.sudochat.shadow"
         enableRelocation = true
+        archiveClassifier = ""
         minimize()
     }
 
