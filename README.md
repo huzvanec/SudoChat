@@ -1,18 +1,46 @@
 # SudoChat
-## What is SudoChat
-Sudo chat is a very simple plugin, which makes you able to send messages and execute commands as other players.
-## Supported platforms
-Paper based minecraft servers **1.19.4+** <br>
-**Spigot and Bukkit are not supported!**
 
-## How to use it?
-First, you need to grant yourself ```sudochat.sudo``` permission (you can do this using a permission plugin such as [Luck Perms](https://luckperms.net/)) or be an operator to use ```/sudo```. <br>
-Then you can execute the command as shown below: <br>
-```/sudo <selector> <message or /command>``` <br>
-Where selector is a player name or ```@everyone```. <br> <br>
-Message example <br>
-```/sudo Steve Hello! I just joined the server!``` <br>
-```/sudo @everyone Hello! I just joined the server!``` <br> <br>
-Command example <br>
-```/sudo Steve /gamemode creative``` <br>
-```/sudo @everyone /help```
+A simple plugin that allows you to send messages and execute commands as other players.  
+No config. Works out of the box.
+
+## Supported Platforms
+
+✅ Paper-based Minecraft servers (1.21.4+)  
+❌ Spigot and Bukkit are NOT supported
+
+## Permissions
+
+To use `/sudo`, you must have the `sudochat.sudo` permission.
+
+- You can grant this permission using a plugin like [LuckPerms](https://luckperms.net/).
+- Operators (`/op`) automatically have access.
+
+## Usage
+
+The command format:
+
+```
+/sudo <targets> <message>
+```
+
+- `<targets>` -> A player name or a different [target selector](https://minecraft.wiki/w/Target_selectors).
+- `<message>` -> A chat message (text) or a command prefixed with `/`.
+
+> [!NOTE]
+> Note that only users with the `minecraft.command.selector` permission will be able to use target selectors.
+
+## Examples
+
+- Sending a message as another player
+
+```
+/sudo Steve Hello! I just joined the server.
+/sudo @a[name=!Steve] Welcome!
+```
+
+- Executing a command as another player
+
+```
+/sudo Steve /gamemode creative
+/sudo @a[name=!Steve] /help
+```
