@@ -1,4 +1,0 @@
-name: SudoChat
-version: '${project.version}'
-main: cz.jeme.programu.sudochat.SudoChat
-api-version: '1.19'

@@ -1,0 +1,6 @@
+name: SudoChat
+version: '4.0'
+main: cz.jeme.sudochat.SudoChat
+api-version: '1.21'
+authors: [ XD_CZ ]
+description: The mod that brings it all together
