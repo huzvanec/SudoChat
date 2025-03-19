@@ -25,7 +25,7 @@ internal class SudoCommand(
             .then(
                 argument("targets", ArgumentTypes.players())
                     .then(
-                        argument("message", StringArgumentType.string())
+                        argument("message", StringArgumentType.greedyString())
                             .executes { ctx ->
                                 val players = ctx.getArgument(
                                     "targets",
